@@ -1,0 +1,84 @@
+<!-- 
+[X]All styles must be internal styles and external styles, no in-line styles allowed.
+[X]Five or more internal style rule-sets per web page. 
+[X]Make these internal styles different for each web page.
+[]One external style sheet with at least 10 different rule-sets.
+[X]For the 10 different rule-sets use at least three different types of 
+   selector forms (i.e simple selectors, class selectors, and id selectors).
+[X]CSS to specify at least three different font families.
+[X]CSS to specify at least three different font sizes.
+[X]Different text colors.
+[X]Different background colors for different HTML elements (For example: 
+   you could make a <div> element have a different background color).
+[X]You must also use the <span> and <div> tags. These tags are useful for 
+   applying a combination of styles to different sections of your web page.
+[X]Include images, internal links, and external links as needed.
+[X]You must use margins and/or positioning to make the web pages look pleasing. 
+[X]Pass html validator
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <style>
+         h3 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 22px;
+            color: #b71218;
+            padding-left: 150px;
+         }
+         p.main {
+            font-family: sans-serif;
+            font-size: 18px;
+            text-align: center;
+            color: #663500;
+         }
+         img.chester{
+            width: 400px;
+            border: dotted;
+            border-color:  #b71218;
+            margin-left: 300px;
+         }
+         img.chicken {
+            width: 300px;
+            margin-left: 350px;
+            }
+         img.map {
+            width: 500px;
+            margin-left: 250px;
+            border: solid;
+            border-color: #663500;
+         }
+      </style>
+      <title>Chester's Chicken</title>
+      <link rel="stylesheet" type="text/css" href="stylesheet.css">
+   </head>
+
+   <body>
+      <header class="border">
+         <img src="logo.jpg" alt="logo" class="logo">
+         <div class="header_style">
+            <h1> Chester's Janky Chicken Hut <br> Homepage</h1>
+            <a href="assign04b.html">Go to order page</a>
+         </div>
+      </header>
+
+      <div class="open_bottom_border">
+         <h3 class="">Chester's chicken</h3>
+         <p class="main"> Chester's chicken was started in 1994 by Chester himself (pictured). <br>The chicken chain has allowed Chester to share his chicken with the world. </p>
+         <img src="chester.png" alt="chester" class="chester">
+         <h3>Chester's chickens</h3>
+         <p class="main"> Chester's chickens are all grown at our farm. <br>They are happy chickens who are free to roam but are protected behind fences.</p>
+         <img src="happychicken.png" alt="happychicken" class="chicken">
+         <h3>Chester's place</h3>
+         <p class="main">Below you can find a map to Chester's chicken place. <br>To get there you just get off of highway 35, <br>turn left on 35th and then jump the curb.</p>
+         <img src="map.png" alt="map" class="map">
+      </div>
+      <div class="open_top_border">
+      <footer>
+         <p>This Page was made by Braden Hansen. All graphics were made by Braden Hansen. Chester's Chicken is fictitous and I actually think fried chicken <br>
+            is far inferior to grilled.</p>
+      </footer>
+   </div>
+   </body>
+</html>

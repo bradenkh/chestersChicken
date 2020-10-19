@@ -1,0 +1,74 @@
+/* 
+brown #663500
+red #b71218
+tan #fdeca6
+*/
+html {
+   background-color: #b71218;
+   padding: 20px;
+}
+
+body {
+   border: dotted;
+   background-color: #fdeca6;
+   border-color: #b71218;
+   width: 1000px;
+   margin: auto;
+}
+
+header.border{
+   border: dotted;
+   border-color: #b71218;
+   overflow: auto;
+}
+
+div.header_style {
+   font-family: "Comic Sans MS";
+   color: #663500;
+   margin-top: 20px;
+   text-align: center;
+}
+
+img.logo {
+   width: 200px;
+   height: 200px;
+   float: left;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 20px;
+   padding-left: 10px;
+}
+
+input.how_many {
+   width: 40px;
+   margin-left: 112px;
+}
+
+input.submit {
+   width: 120px;
+   margin-left: 440px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+footer {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 10px;
+   text-align: center;
+   color: #b71218;
+}
+
+div.open_bottom_border {
+   border-top: dotted;
+   border-left: dotted;
+   border-right: dotted;
+   border-color: #b71218;
+}
+
+div.open_top_border {
+   border-bottom: dotted;
+   border-left: dotted;
+   border-right: dotted;
+   border-color: #b71218;
+}
+
